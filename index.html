@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Party Happenings!</h1>
+
+    </header>
+    <div class="container">
+        <div id="partyContainer">
+            <h3>Are you ready?</h3>
+            <button id="fetchPartiesBtn">Click to see the parties!!</button>
+        </div>
+        <div id="addPartyForm">
+            <h3>Add your Party!</h3>
+            <form action="" id="partyForm">
+                <label for="partyName">Party Name:</label>
+                <input type="text" id="partyName" name="partyName"><br><br>
+                <label for="partyDescription">Party Description:</label>
+                <input type="text" id="partyDescription" name="partyDescription"><br><br>
+                <label for="partyLocation">Party Location:</label>
+                <input type="text" id="partyLocation" name="partyLocation"><br><br>
+                <label for="partyDate">Party Date:</label>
+                <input type="date" id="partyDate" name="partyDate"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+    <div id="partyBoxes">
+        <!-- Each Party box will be dynamically added here -->
+    </div>
+
+    <script src="block21.js"></script>
+</body>
+</html>
